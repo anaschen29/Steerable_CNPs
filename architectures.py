@@ -26,9 +26,9 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
 #Own files:
-import kernel_and_gp_tools as GP
-import my_utils
-import cov_activ_func 
+from Steerable_CNPs import kernel_and_gp_tools as GP
+from Steerable_CNPs import my_utils
+from Steerable_CNPs import cov_activ_func 
 
 #HYPERPARAMETERS and set seed:
 torch.set_default_dtype(torch.float)
