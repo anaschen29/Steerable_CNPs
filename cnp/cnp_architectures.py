@@ -8,9 +8,9 @@ from numpy import loadtxt
 from numpy import savetxt
 
 #Import own files:
-import cnp.enc_dec_models as models
-import cnp.cnp_model as CNP_Model
-import my_utils
+from Steerable_CNPs import cnp.enc_dec_models as models
+from Steerable_CNPs import cnp.cnp_model as CNP_Model
+from Steerable_CNPs import my_utils
 
 def give_cnp_architecture(name,dim_X=2,dim_Y_in=2,dim_Y_out=2):
     if name=='paper':
