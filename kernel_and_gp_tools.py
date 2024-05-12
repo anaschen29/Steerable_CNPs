@@ -26,7 +26,7 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
 #Own files:
-import my_utils
+from Steerable_CNPs import my_utils
 
 #Set float as default:
 torch.set_default_dtype(torch.float)
