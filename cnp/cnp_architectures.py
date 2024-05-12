@@ -8,8 +8,8 @@ from numpy import loadtxt
 from numpy import savetxt
 
 #Import own files:
-from Steerable_CNPs import cnp.enc_dec_models as models
-from Steerable_CNPs import cnp.cnp_model as CNP_Model
+from Steerable_CNPs.cnp import enc_dec_models as models
+from Steerable_CNPs.cnp import cnp_model as CNP_Model
 from Steerable_CNPs import my_utils
 
 def give_cnp_architecture(name,dim_X=2,dim_Y_in=2,dim_Y_out=2):
