@@ -31,7 +31,7 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
 #Own files:
-import my_utils
+from Steerable_CNPs import my_utils
 
 
 #HYPERPARAMETERS:
